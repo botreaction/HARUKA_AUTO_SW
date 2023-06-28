@@ -293,7 +293,7 @@ app.use(express.static(path.join(__dirname, 'views')))
     }
     
 	  haruka.prefa = 'apasih'
-    haruka.public = true
+    haruka.public = false
     haruka.serializeM = (m) => smsg(haruka, m, store)
 
 
